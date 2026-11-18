@@ -48,7 +48,6 @@
   "vars": {
     "NUXT_SITE_TOKEN": "xingyao520",
     "NUXT_CF_ACCOUNT_ID": "4100936a921e8b3ba237daa9e38299b3",
-    "NUXT_PUBLIC_HOME_URL": "https://s.147258.dpdns.org",
     "NUXT_DATASET": "cc"
   },
   "triggers": {
