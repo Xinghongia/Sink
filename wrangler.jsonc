@@ -8,26 +8,52 @@
     "html_handling": "drop-trailing-slash"
   },
   "compatibility_date": "2025-05-08",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "keep_vars": true,
   "observability": {
-    "logs": { "enabled": true },
-    "traces": { "enabled": true }
+    "logs": {
+      "enabled": true
+    },
+    "traces": {
+      "enabled": true
+    }
   },
-  "ai": { "binding": "AI", "remote": true },
+  "ai": {
+    "binding": "AI",
+    "remote": true
+  },
   "analytics_engine_datasets": [
-    { "binding": "ANALYTICS", "dataset": "sink" }
+    {
+      "binding": "ANALYTICS",
+      "dataset": "cc"
+    }
   ],
   "kv_namespaces": [
-    { "binding": "KV", "id": "3f2860d15fd0460ab0546d47ba62e950", "preview_id": "3f2860d15fd0460ab0546d47ba62e950" }
+    {
+      "binding": "KV",
+      "id": "3f2860d15fd0460ab0546d47ba62e950",
+      "preview_id": "3f2860d15fd0460ab0546d47ba62e950"
+    }
   ],
   "d1_databases": [
-    { "binding": "DB", "database_name": "sink", "database_id": "6a33b158-3f1b-4906-bfd1-61bf4759b0c4", "migrations_dir": "drizzle" }
+    {
+      "binding": "DB",
+      "database_name": "sink",
+      "database_id": "6a33b158-3f1b-4906-bfd1-61bf4759b0c4",
+      "migrations_dir": "drizzle"
+    }
   ],
   "vars": {
     "NUXT_SITE_TOKEN": "xingyao520",
     "NUXT_CF_ACCOUNT_ID": "4100936a921e8b3ba237daa9e38299b3",
-    "NUXT_PUBLIC_HOME_URL": "https://s.147258.dpdns.org"
+    "NUXT_PUBLIC_HOME_URL": "https://s.147258.dpdns.org",
+    "NUXT_DATASET": "cc"
   },
-  "triggers": { "crons": ["0 0 * * *"] }
+  "triggers": {
+    "crons": [
+      "0 0 * * *"
+    ]
+  }
 }
